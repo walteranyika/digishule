@@ -1,0 +1,45 @@
+div{ 
+	background-color:pink;
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+	height: 10cm;
+	width:20cm;
+}
+.firstitem{
+	background-color: blue;
+	width: 15cm;
+	height:3cm;
+	margin: 5px;
+	align-self:flex-start;
+	flex-grow:2;
+}
+.second{
+	background-color: blue;
+	width: 7cm;
+	height:3cm;
+	margin: 5px;
+	flex-shrink:2;
+}
+.third{
+	background-color: blue;
+	width: 7cm;
+	height:3cm;
+	margin: 5px;
+	flex:2;
+}
+.fourth{
+	background-color: blue;
+	width: 2cm;
+	height:3cm;
+	margin: 5px;
+}
+ul{
+	background-color: blue;
+}
+li {
+	display: inline-block;
+	color:red;
+	background-color: violet;
